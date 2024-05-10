@@ -53,6 +53,9 @@ img {
   display: flex;
   gap: 40px;
 }
+.page-nav .link {
+  padding: 24px 0;
+}
 .websudio {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -160,13 +163,15 @@ img {
 .service-button:focus {
   background-color: #404bbf;
 }
+.studio {
+  padding: 120px 0;
+}
 .studio .container {
   display: flex;
   min-height: 100vh;
   flex-grow: 1;
   align-items: center;
   justify-content: center;
-  padding: 120px 0;
 }
 .sudio-title {
   font-weight: 500;
@@ -174,7 +179,13 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  visibility: hidden;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 .studio-list {
   display: flex;
@@ -204,6 +215,7 @@ img {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team .container {
   display: flex;
@@ -212,7 +224,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 120px 0;
 }
 
 .team-title {
@@ -270,6 +281,10 @@ img {
   text-align: center;
   color: #434455;
 }
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio .container {
   display: flex;
   flex-wrap: wrap;
@@ -277,8 +292,6 @@ img {
   min-height: 100vh;
   flex-grow: 1;
   justify-content: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -329,11 +342,11 @@ img {
 .last {
   background: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 .last .container {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
 }
 .last-websudio {
   font-family: "Raleway", sans-serif;

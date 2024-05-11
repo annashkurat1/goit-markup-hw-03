@@ -354,7 +354,7 @@ img {
   display: flex;
   flex-direction: column;
 }
-a .last-websudio.extra-class {
+a.last-websudio.extra-class {
   display: inline-block;
 }
 .last-websudio {

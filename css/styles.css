@@ -354,6 +354,9 @@ img {
   display: flex;
   flex-direction: column;
 }
+.last-websudio-container {
+  display: inline-block;
+}
 .last-websudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -362,7 +365,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: пblock;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
